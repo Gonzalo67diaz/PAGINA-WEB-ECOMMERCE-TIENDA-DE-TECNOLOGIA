@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TECNOLOGI</title>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  
+  <link rel="stylesheet" href="page.css/style.css">
+  <link rel="stylesheet" href="carrito.css/main.css">
+  <link rel="stylesheet" href="slider.css/estilos.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="navbar flex1">
+        <nav class="flex1">
+          <ul id="menuitem">
+            <li> <a href="#home">HOME</a> </li>
+            <li> <a href="#shop">SHOP</a> </li>
+            <li> <a href="#blog">BLOG</a> </li>
+            <li> <a href="#account">ACCOUNT</a> </li>
+          </ul>
+
+          <span class="fa fa-bars" onclick="menutoogle()"></span>
+
+          <div class="logo flex">
+            <h1>TECNOLOGI</h1>
+          </div>
+        </nav>
+
+        <div class="account flex">
+          <i class="far fa-search"></i>
+          <i class="far fa-user"></i>
+          <i class="far fa-heart"></i>
+          <i class="far fa-shopping-bag"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="slide-contenedor" >
+    <div class="miSlider">
+        <img src="img.silder/1 (1).jpg" alt="">
+        <div class="slide-description">
+            <h3>LINIA GAMER</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+        </div>
+    </div>
+    <div class="miSlider">
+        <img src="img.silder/1(2).jpg" alt="">
+        <div class="slide-description">
+            <h3>HOT SALE</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+        </div>
+    </div>
+    <div class="miSlider">
+        <img src="img.silder/1(3).jpg" alt="">
+         <div class="slide-description">
+                        <h3>HOT SALE</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                    </div>
+    </div>
+    <div class="direcciones">
+        <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+        <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+    </div>
+    <div class="barras">
+        <span class="barra active" onclick="posicionSlide(1)"></span>
+        <span class="barra" onclick="posicionSlide(2)"></span>
+        <span class="barra" onclick="posicionSlide(3)"></span>
+    </div>
+  </div>
+
+  
+
+
+
+  <section class="home" id="home">
+    <div class="container flex">
+      <div class="box_left">
+        <div class="left">
+          <h5>Style Destination</h5>
+          <h1>For All Pet</h1>
+          <span>Style Destination</span> <br>
+          <button>Shop Now</button>
+        </div>
+        <div class="right">
+          <img src="img.page/a.jpg" alt="">
+        </div>
+      </div>
+      <div class="box_right">
+        <div class="img">
+          <img src="img.page/b.webp" alt="">
+        </div>
+        <div class="img">
+          <img src="img.page/c.webp" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="offer top" id="shop">
+    <div class="container flex">
+      <div class="left">
+        <div class="text">
+          <h1>New Product</h1>
+          <h5>DAILY ESSENTIALS</h5>
+          <a href="#">Explore all</a>
+        </div>
+        <div class="img">
+          <img src="img.page/TV.png" alt="">
+        </div>
+      </div>
+      <div class="right">
+        <div class="text">
+          <h1>New Product</h1>
+          <h5>DAILY ESSENTIALS</h5>
+          <a href="#">Explore all</a>
+        </div>
+        <div class="img">
+          <img src="img.page/TVP.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <div class="wrapper">
+        <section class="header-mobile">
+            <h1 class="logo">TIENDA ONLINE</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </section>
+        <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            
+                <h1 class="logo">Mi tienda</h1>
+           
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button id="todos" class="boton-menu boton-categoria active"> Todos los productos</button>
+                    </li>
+                    <li>
+                        <button id="Notebooks" class="boton-menu boton-categoria"> Notebooks</button>
+                    </li>
+                    <li>
+                        <button id="tv" class="boton-menu boton-categoria">tv</button>
+                    </li>
+                    <li>
+                        <button id="pantalones" class="boton-menu boton-categoria">Smartphone</button>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="./carrito.html">
+                            <i class="bi bi-cart-fill"></i> Carrito <span id="numerito" class="numerito">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+                <!-- Esto se va a rellenar con JS -->
+            </div>
+        </main>
+  </div>
+    
+  
+
+
+
+  <section class="blog mtop" id="blog">
+    <div class="container">
+      <h1>From our blog.</h1>
+
+      <div class="content grid">
+        <div class="box">
+          <div class="img">
+            <img src="img.page/GAMER 1.jpg" alt="">
+          </div>
+          <div class="text flex">
+            <div class="date">
+              <h4>23 <br> MAR </h4>
+            </div>
+            <div class="para">
+              <h5>Catalogo</h5>
+              <h3>hot sale</h3>
+              <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="img.page/GAMER 2.jpg" alt="">
+          </div>
+          <div class="text flex">
+            <div class="date">
+              <h4>23 <br> MAR </h4>
+            </div>
+            <div class="para">
+              <h5>Catalogo</h5>
+              <h3>hot sale</h3>
+              <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="img.page/GAMER 3.jpg" alt="">
+          </div>
+          <div class="text flex">
+            <div class="date">
+              <h4>23<br> MAR </h4>
+            </div>
+            <div class="para">
+              <h5>Catalogo</h5>
+              <h3>hot sale </h3>
+              <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="container top">
+      <div class="head flex1">
+        <span>TECNOLOGI Store</span>
+        <ul>
+          <li>ABOUT AR</li>
+          <li>CONTACT AR</li>
+          <li>FAQS</li>
+        </ul>
+
+        <ul>
+          <li> <i class="fab fa-twitter"></i> </li>
+          <li> <i class="fab fa-facebook-f"></i> </li>
+          <li> <i class="fab fa-instagram"></i> </li>
+          <li> <i class="fab fa-youtube"></i> </li>
+        </ul>
+      </div>
+
+      <div class="text">
+        <h3>LIKE BEING FIRST?</h3>
+        <p>Then get your can't-miss style news, before everybody else</p>
+      </div>
+
+      <div class="input flex1">
+        <input type="text" placeholder="Enter your email">
+        <label>SUBSCRIBE</label>
+      </div>
+    </div>
+  </footer>
+
+   <div class="legal">
+    <p>Copyright (c) 2023.</p>
+   </div>
+
+    <script src="slider.js/slider.js"></script>
+    <script src="page.js/page.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>

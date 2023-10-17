@@ -1,0 +1,182 @@
+[
+    {
+        "id": "Notebooks-01",
+        "titulo": "Notebooks 01",
+        "imagen": "./img.carrito/notebooks/01.jpg",
+        "categoria": {
+            "nombre": "Notebooks",
+            "id": "Notebooks"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Notebooks-02",
+        "titulo": "Notebooks 02",
+        "imagen": "./img.carrito/notebooks/02.jpg",
+        "categoria": {
+            "nombre": "Notebooks",
+            "id": "Notebooks"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Notebooks-03",
+        "titulo": "Notebooks 03",
+        "imagen": "./img.carrito/notebooks/03.jpg",
+        "categoria": {
+            "nombre": "Notebooks",
+            "id": "Notebooks"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Notebooks-04",
+        "titulo": "Notebooks 04",
+        "imagen": "./img.carrito/notebooks/04.jpg",
+        "categoria": {
+            "nombre": "Notebooks",
+            "id": "Notebooks"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Notebooks-05",
+        "titulo": " Notebooks05",
+        "imagen": "./img.carrito/notebooks/05.jpg",
+        "categoria": {
+            "nombre": "Notebooks",
+            "id": "Notebooks"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "tv-01",
+        "titulo": "tv 01",
+        "imagen": "./img.carrito/tv/01.jpg",
+        "categoria": {
+            "nombre": "tv",
+            "id": "tv"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "tv-02",
+        "titulo": "tv 02",
+        "imagen": "./img.carrito/tv/02.jpg",
+        "categoria": {
+            "nombre": "tv",
+            "id": "tv"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "tv-03",
+        "titulo": "tv 03",
+        "imagen": "./img.carrito/tv/03.jpg",
+        "categoria": {
+            "nombre": "tv",
+            "id": "tv"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "-tv04",
+        "titulo": "tv04",
+        "imagen": "./img.carrito/tv/04.jpg",
+        "categoria": {
+            "nombre": "tv",
+            "id": "tv"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "tv-05",
+        "titulo": "tv 05",
+        "imagen": "./img.carrito/tv/05.jpg",
+        "categoria": {
+            "nombre": "tv",
+            "id": "tv"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "tv-06",
+        "titulo": "tv 06",
+        "imagen": "./img.carrito/tv/06.jpg",
+        "categoria": {
+            "nombre": "tv",
+            "id": "tv"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "tv-07",
+        "titulo": " tv07",
+        "imagen": "./img.carrito/tv/07.jpg",
+        "categoria": {
+            "nombre": "tv",
+            "id": "tv"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "tv-08",
+        "titulo": "tv 08",
+        "imagen": "./img.carrito/tv/08.jpg",
+        "categoria": {
+            "nombre": "tv",
+            "id": "tv"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "pantalon-01",
+        "titulo": "Pantalón 01",
+        "imagen": "./img.carrito/smartphone/01.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "pantalon-02",
+        "titulo": "Pantalón 02",
+        "imagen": "./img.carrito/smartphone/02.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "pantalon-03",
+        "titulo": "Pantalón 03",
+        "imagen": "./img.carrito/smartphone/03.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "pantalon-04",
+        "titulo": "Pantalón 04",
+        "imagen": "./img.carrito/smartphone/04.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "pantalon-05",
+        "titulo": "Pantalón 05",
+        "imagen": "./img.carrito/smartphone/05.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000
+    }
+]
